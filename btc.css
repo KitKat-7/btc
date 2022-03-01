@@ -39,7 +39,8 @@ ul #navi:hover::after {
     }
 
     .packages {
-        
+        width: auto
+        height: 92vh !important ;
     }
 
     .icons {
