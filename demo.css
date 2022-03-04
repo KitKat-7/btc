@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbar {
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: #171F2F;
+}
+
+ul #navi::after {
+    content: "";
+    display: block;
+    background-color: #DF0550;
+    height: 2px;
+    width: 0%;
+    transition: width 300ms;
+}
+
+ul #navi:hover::after {
+    width: 100%;
+}
+
+.carousel-inner img{
+    height: 92vh;
+    width: 100%;
+}
+
+@media only screen and (max-width:891px) {
+    .carousel-inner img{
+        width: auto;
+    }
+
+    .row {
+        padding: 0px 15px !important;
+    }
+
+    #col {
+        padding-bottom: 40px;
+    }
+
+
+    /* .packages {
+        width: auto
+        max-height: 98vh !important ;
+    }
+
+    .icons {
+
+        background-color: aqua;
+        flex-direction: column;
+        height: 0vh;
+        margin-top: 0;
+
+    }
+    .card {
+        height: 26vh !important;
+       margin: 7px 0;
+
+    }
+    #crd {
+        margin-top: -18%;
+    } */
+}
+
+.carousel-caption a {
+    margin-bottom: 30vh;
+}
+
+.package {
+    background-color: #DF0550;
+    text-align: center;
+}
+
+.package h1 {
+    padding: 20px;
+}
+
+.card img {
+    height: 50px;
+    width: 50px;
+}
+
+.row {
+    padding: 18vh 20px;
+    text-align: left;
+    
+}
+
+.card {
+    border-radius: 10px !important;   
+}
+
+.card-img {
+    border-radius: 10px !important;
+}
+
+
+
+
+/* .packages {
+    position: relative;
+    text-align: center;
+    background-color: #DF0550;
+    height: 94vh;
+}
+
+.packages h1 {
+    padding-top: 20px;
+}
+
+.icons   {
+    position: relative;
+    display: flex;
+}
+
+.card {
+    text-align: left;
+    height: 30vh;
+    position: absolute;
+    transform: translate(0,40%);
+
+}
+
+#crd ,#crd2 {
+
+    border-radius: 20px;
+}
+
+#crd:hover ,#crd2:hover {
+    -webkit-box-shadow: 0 0 10px rgba(15, 9, 9, 0.801);
+        box-shadow: 0 0 10px rgba(15, 9, 9, 0.801);
+}
+
+.card-body img {
+    height: 30px;
+    width: 30px;
+
+}
+
+
+
+.about{
+    text-align: center;
+    background-color: aqua;
+    height: 92vh;
+
+}
+
+.grid {
+    display: grid;
+
+    grid-template-columns: auto auto ;
+}
+
+.about h1 {
+    padding: 10PX;
+}
+
+.about img{
+    margin: 10px 0;
+    height: 35vh;
+    width: 90%;
+} */
+
