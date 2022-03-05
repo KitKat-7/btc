@@ -108,7 +108,7 @@ else {
     $otp = rand(100000,999999);
     $_SESSION['otp'] = $otp;
     $_SESSION['mail'] = $email;
-    require "PHPMailerAutoload.php";
+    require "Mail/phpmailer/PHPMailerAutoload.php";
     $mail = new PHPMailer;
     
     $mail->isSMTP();
